@@ -20,8 +20,8 @@ Both simplify contacts and stamped/internal details; do not assume full enclosur
 
 `models/ReplugB.3dshapes/SHOUHAN_1.27-2P_TPPT.step` was imported from supplier-linked CAD and offset vertically to align with the board. Reference part: https://www.lcsc.com/product-detail/C7421516.html . A redistribution license has not been established. The two `ReplugB.pretty` footprints were imported and corrected against those manufacturers' drawings, including pad and drill dimensions. Their source licensing also needs review before public distribution.
 
-These unresolved items are retained only for this private review. Do not interpret their inclusion as a public redistribution license. The assembled STEP export and render include this model and share that review limitation.
+The repository is publicly viewable, but these permissions remain unresolved. Inclusion does not establish a redistribution license. The assembled STEP export and render also include the imported model.
 
 ## Original design
 
-No public license is selected yet for the original circuit, layout, documentation or drawing-based models. Private review does not waive third-party rights. Supplier datasheet PDFs and rejected/unused CAD are not bundled; use the source links and BOM references.
+No public license is selected yet for the original circuit, layout, documentation or drawing-based models. Public visibility does not waive third-party rights or grant an open-source license. Supplier datasheet PDFs and rejected/unused CAD are not bundled; use the source links and BOM references.

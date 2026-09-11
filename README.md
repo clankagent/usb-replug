@@ -2,7 +2,7 @@
 
 A USB-A male-to-female adapter intended to simulate unplugging and reconnecting a USB 2.0 peripheral with one button press. A CMOS 555 provides the delay; there is no microcontroller or firmware.
 
-**Private design review. Unbuilt prototype; not ready to order.** Assembly placement mappings remain unresolved and hardware performance has not been tested. This repository contains only the current revision B source and review material, not previous design iterations or fabrication releases.
+**Public design review. Unbuilt prototype; not ready to order.** Assembly placement mappings remain unresolved and hardware performance has not been tested. This repository contains only the current revision B source and review material, not previous design iterations or fabrication releases.
 
 ![Revision B KiCad render](docs/board-3d.png)
 
@@ -40,6 +40,6 @@ Gerbers and pick-and-place files are deliberately absent: the previous assembler
 
 ## Licensing and provenance
 
-See [THIRD_PARTY.md](THIRD_PARTY.md). The private repository does not yet grant a public license for the original project. Existing third-party licenses remain in effect. Resolve the imported library/model provenance and select the project license before changing visibility to public.
+See [THIRD_PARTY.md](THIRD_PARTY.md). Public visibility does not grant an open-source license for the original project; no project license has been selected. Existing third-party licenses remain in effect. Provenance and redistribution permissions for the imported footprints and DIP-switch model remain unresolved; see the linked notes.
 
 Prepared with AI-assisted design and review; the KiCad files, not an image, are the design source of truth.

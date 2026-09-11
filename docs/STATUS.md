@@ -1,6 +1,6 @@
 # Review status
 
-Revision B is a private, unbuilt prototype snapshot. No fabrication or assembly release is approved.
+Revision B is a publicly viewable, unbuilt prototype snapshot. No fabrication or assembly release is approved.
 
 ## Before a prototype fabrication release
 
@@ -10,7 +10,7 @@ Revision B is a private, unbuilt prototype snapshot. No fabrication or assembly 
 - Review component ratings, current limit, power-budget behavior and peripheral discharge/reconnect behavior against the selected BOM.
 - Regenerate fabrication and placement files from the reviewed native revision; inspect the target assembler's complete preview and DFM results.
 
-## Before public release
+## Licensing work still unresolved
 
 - Resolve the license of the supplier-linked SHOUHAN DIP-switch STEP model, or replace it with a newly constructed drawing-based model.
 - Review provenance/licensing of the two imported, corrected `ReplugB` footprints. The manufacturer dimensions were checked, but the importer source does not by itself establish redistribution permission.
