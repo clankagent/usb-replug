@@ -1,0 +1,41 @@
+Reference,Value,Manufacturer,MPN,LCSC,Footprint,Datasheet,Notes
+J1,USB-A PLUG,Molex,480372200,C2765195,Connector_USB:USB_A_Molex_48037-2200_Horizontal,https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/480/48037/480372200_sd.pdf,; JLCPCB Standard assembly only. Economic variant leaves this connector unpopulated.
+J2,USB-A SOCKET,Jingtuo,902-131A1011D10100,C2345,ReplugB:Jingtuo_902-131A1011D10100,https://www.lcsc.com/datasheet/C2345.pdf,"USB-A female, 1.5A/30V; 0.9mm signal drills and 2.1mm shell drills per manufacturer drawing"
+U1,TPS2552DBVR,Texas Instruments,TPS2552DBVR,C46506,Package_TO_SOT_SMD:SOT-23-6,https://www.ti.com/lit/ds/symlink/tps2552.pdf,
+U2,TLV75533PDBVR,Texas Instruments,TLV75533PDBVR,C404027,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/tlv755p.pdf,
+U3,TS3USB30EDGSR,Texas Instruments,TS3USB30EDGSR,C131998,Package_SO:MSOP-10_3x3mm_P0.5mm,https://www.ti.com/lit/ds/symlink/ts3usb30e.pdf,
+U4,TLC555CDR,Texas Instruments,TLC555CDR,C6986,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.ti.com/lit/ds/symlink/tlc555.pdf,CMOS monostable; C6986; no firmware; approximately 1/2/3 seconds
+U6,SN74LVC2G14DBVR,Texas Instruments,SN74LVC2G14DBVR,C12401,Package_TO_SOT_SMD:SOT-23-6,https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf,
+D1,USBLC6-2SC6,STMicroelectronics,USBLC6-2SC6,C7519,Package_TO_SOT_SMD:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,
+D2,USBLC6-2SC6,STMicroelectronics,USBLC6-2SC6,C7519,Package_TO_SOT_SMD:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,
+D3,BAT54WS,Diodes Incorporated,BAT54WS-7-F,C124205,Diode_SMD:D_SOD-323,https://www.diodes.com/datasheet/download/BAT54WS.pdf,Fast RC discharge; pin 1 cathode; SOD323 two-pin package
+Q1,BSS138,onsemi,BSS138LT1G,C82045,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pdf/datasheet/bss138lt1-d.pdf,
+SW1,REPLUG,C&K,PTS645SM43SMTR92 LFS,C221880,Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92,https://www.ckswitches.com/media/1471/pts645.pdf,
+SW2,DELAY SELECT,SHOUHAN,1.27-2P TPPT,C7421516,ReplugB:SHOUHAN_1.27-2P_TPPT,https://www.lcsc.com/datasheet/C7421516.pdf,24V 25mA. Switch only while idle. OFF/OFF ~3s; one ON ~2s; both ON ~1s.
+R1,45.3k,Yageo,RC0603FR-0745K3L,C245971,Resistor_SMD:R_0603_1608Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,Current limit approx 0.57 A; intended device load <=500mA with host budget respected
+R2,100k,UNI-ROYAL,0603WAF1003T5E,C25803,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C25803.pdf,"1%, 0.1 W, 0603"
+R3,100k,UNI-ROYAL,0603WAF1003T5E,C25803,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C25803.pdf,"1%, 0.1 W, 0603"
+R4,1k,UNI-ROYAL,0603WAF1001T5E,C21190,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C21190.pdf,Limits trigger clamp current
+R5,1M,UNI-ROYAL,0603WAF1004T5E,C22935,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C22935.pdf,"1%, 0603; t nominal = ln(3) RC; timing accuracy intentionally approximate"
+R6,1M,UNI-ROYAL,0603WAF1004T5E,C22935,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C22935.pdf,"1%, 0603; t nominal = ln(3) RC; timing accuracy intentionally approximate"
+R7,1M,UNI-ROYAL,0603WAF1004T5E,C22935,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C22935.pdf,"1%, 0603; t nominal = ln(3) RC; timing accuracy intentionally approximate"
+R8,100k,UNI-ROYAL,0603WAF1003T5E,C25803,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C25803.pdf,Power-on reset pull-up
+R9,100k,UNI-ROYAL,0603WAF1003T5E,C25803,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C25803.pdf,Button pull-up
+R15,47k,UNI-ROYAL,0603WAF4702T5E,C25819,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C25819.pdf,"1%, 0.1 W, 0603"
+R16,1k,UNI-ROYAL,0603WAF1001T5E,C21190,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C21190.pdf,"1%, 0.1 W, 0603"
+R17,1k,UNI-ROYAL,0603WAF1001T5E,C21190,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C21190.pdf,"1%, 0.1 W, 0603"
+R18,100k,UNI-ROYAL,0603WAF1003T5E,C25803,Resistor_SMD:R_0603_1608Metric,https://www.lcsc.com/datasheet/C25803.pdf,"1%, 0.1 W, 0603"
+C1,1uF,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C15849.pdf,"X7R, 16V, 0603; 1uF and 100nF bypass capacitors; 50V, +/-10%, X5R; supplier Basic part"
+C2,1uF,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C15849.pdf,"X7R, 16V, 0603; 1uF and 100nF bypass capacitors; 50V, +/-10%, X5R; supplier Basic part"
+C3,1uF,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C15849.pdf,"X7R, 16V, 0603; 1uF and 100nF bypass capacitors; 50V, +/-10%, X5R; supplier Basic part"
+C4,100nF,YAGEO,CC0603KRX7R9BB104,C14663,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C14663.pdf,"X7R, 16V, 0603; 1uF and 100nF bypass capacitors; 50V, +/-10%, X7R; supplier Basic part"
+C5,100nF,YAGEO,CC0603KRX7R9BB104,C14663,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C14663.pdf,"X7R, 16V, 0603; 1uF and 100nF bypass capacitors; 50V, +/-10%, X7R; supplier Basic part"
+C6,100nF,YAGEO,CC0603KRX7R9BB104,C14663,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C14663.pdf,"X7R, 16V, 0603; 1uF and 100nF bypass capacitors; 50V, +/-10%, X7R; supplier Basic part"
+C7,100nF,YAGEO,CC0603KRX7R9BB104,C14663,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C14663.pdf,"555 control-voltage bypass; 50V, +/-10%, X7R; supplier Basic part"
+C8,100nF,YAGEO,CC0603KRX7R9BB104,C14663,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C14663.pdf,"X7R, 16V, 0603; 1uF and 100nF bypass capacitors; 50V, +/-10%, X7R; supplier Basic part"
+C9,100nF,YAGEO,CC0603KRX7R9BB104,C14663,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C14663.pdf,"AC-coupled falling-edge trigger: reconnects even with button held; 50V, +/-10%, X7R; supplier Basic part"
+C10,1uF,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C15849.pdf,"X7R, 16V, 0603; 1uF and 100nF bypass capacitors; 50V, +/-10%, X5R; supplier Basic part"
+TP1,FAULT_N,PCB,PCB pad,,TestPoint:TestPoint_Pad_D1.5mm,,Diagnostic pad; no purchased component
+C11,1uF,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C15849.pdf,"1uF X5R 50V; nominal capacitance changes with DC bias and temperature; 50V, +/-10%, X5R; supplier Basic part"
+C12,1uF,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,Capacitor_SMD:C_0603_1608Metric,https://www.lcsc.com/datasheet/C15849.pdf,"1uF X5R 50V; nominal capacitance changes with DC bias and temperature; 50V, +/-10%, X5R; supplier Basic part"
+D4,BAT54WS,Diodes Incorporated,BAT54WS-7-F,C124205,Diode_SMD:D_SOD-323,https://www.diodes.com/datasheet/download/BAT54WS.pdf,Positive trigger clamp on button release; cathode at V3V3

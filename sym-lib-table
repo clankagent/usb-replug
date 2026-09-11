@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Replug") (type "KiCad") (uri "${KIPRJMOD}/libraries/Replug.kicad_sym") (options "") (descr "Datasheet-derived project symbols")))

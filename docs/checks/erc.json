@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-11T07:52:59",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/45ed36e3-599b-51aa-a027-7de6eae399dc",
+            "violations": []
+        },
+        {
+            "path": "/USB and protected power/",
+            "uuid_path": "/45ed36e3-599b-51aa-a027-7de6eae399dc/75b7ab72-8ecf-58b5-88f0-d3ddb98179b8",
+            "violations": []
+        },
+        {
+            "path": "/555 hardware timer/",
+            "uuid_path": "/45ed36e3-599b-51aa-a027-7de6eae399dc/e9fa25e0-5e85-53a9-9a5a-d1d3d2f46a31",
+            "violations": []
+        },
+        {
+            "path": "/Supply and sequencing/",
+            "uuid_path": "/45ed36e3-599b-51aa-a027-7de6eae399dc/75cc1f29-4494-5955-aa42-20d9ae901b50",
+            "violations": []
+        }
+    ],
+    "source": "usb-replug.kicad_sch"
+}
